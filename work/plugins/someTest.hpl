@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Group-Id: io.jenkins.plugins
+Short-Name: someTest
+Long-Name: TODO Plugin
+Minimum-Java-Version: 1.8
+Plugin-Version: some
+Hudson-Version: 2.164.1
+Jenkins-Version: 2.164.1
+Plugin-Dependencies: structs:1.19
+Plugin-Developers: 
+Libraries: C:\Users\uday.kumar\Desktop\jenkinsPlugin\someTest\src\main
+ \resources,C:\Users\uday.kumar\Desktop\jenkinsPlugin\someTest\target\
+ classes
+Resource-Path: C:\Users\uday.kumar\Desktop\jenkinsPlugin\someTest\src\
+ main\webapp
+

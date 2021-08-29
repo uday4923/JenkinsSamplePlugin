@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+Built-By: uday.kumar
+Created-By: Apache Maven
+Build-Jdk: 1.8.0_282
+Extension-Name: someTest
+Specification-Title: The Jenkins Plugins Parent POM Project
+Implementation-Title: someTest
+Implementation-Version: some
+Group-Id: io.jenkins.plugins
+Short-Name: someTest
+Long-Name: TODO Plugin
+Minimum-Java-Version: 1.8
+Plugin-Version: some
+Hudson-Version: 2.164.1
+Jenkins-Version: 2.164.1
+Plugin-Dependencies: structs:1.19
+Plugin-Developers: 
+

@@ -1,0 +1,61 @@
+Running tests for io.jenkins.plugins:someTest:some
+Aug 29, 2021 12:37:16 PM org.eclipse.jetty.util.log.Log initialized
+INFO: Logging initialized @682ms to org.eclipse.jetty.util.log.Slf4jLog
+Aug 29, 2021 12:37:18 PM org.jvnet.hudson.test.WarExploder explode
+INFO: Exploding C:\Users\uday.kumar\.m2\repository\org\jenkins-ci\main\jenkins-war\2.164.1\jenkins-war-2.164.1.war into C:\Users\uday.kumar\Desktop\jenkinsPlugin\someTest\target\jenkins-for-test
+Aug 29, 2021 12:37:26 PM org.eclipse.jetty.server.handler.ContextHandler setContextPath
+WARNING: Empty contextPath
+Aug 29, 2021 12:37:26 PM org.eclipse.jetty.server.Server doStart
+INFO: jetty-9.4.5.v20170502
+Aug 29, 2021 12:37:26 PM org.eclipse.jetty.webapp.StandardDescriptorProcessor visitServlet
+INFO: NO JSP Support for /, did not find org.eclipse.jetty.jsp.JettyJspServlet
+Aug 29, 2021 12:37:26 PM org.eclipse.jetty.server.session.DefaultSessionIdManager doStart
+INFO: DefaultSessionIdManager workerName=node0
+Aug 29, 2021 12:37:26 PM org.eclipse.jetty.server.session.DefaultSessionIdManager doStart
+INFO: No SessionScavenger set, using defaults
+Aug 29, 2021 12:37:26 PM org.eclipse.jetty.server.session.HouseKeeper startScavenging
+INFO: Scavenging every 660000ms
+Aug 29, 2021 12:37:26 PM org.eclipse.jetty.server.handler.ContextHandler doStart
+INFO: Started o.e.j.w.WebAppContext@524f3b3a{/,file:///C:/Users/uday.kumar/Desktop/jenkinsPlugin/someTest/target/jenkins-for-test/,AVAILABLE}{C:\Users\uday.kumar\Desktop\jenkinsPlugin\someTest\target\jenkins-for-test}
+Aug 29, 2021 12:37:26 PM org.eclipse.jetty.server.AbstractConnector doStart
+INFO: Started ServerConnector@55493582{HTTP/1.1,[http/1.1]}{localhost:51655}
+Aug 29, 2021 12:37:26 PM org.eclipse.jetty.server.Server doStart
+INFO: Started @10960ms
+Aug 29, 2021 12:37:28 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started initialization
+Aug 29, 2021 12:37:32 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Listed all plugins
+Aug 29, 2021 12:37:35 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Prepared all plugins
+Aug 29, 2021 12:37:35 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started all plugins
+Aug 29, 2021 12:37:35 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Augmented all extensions
+Aug 29, 2021 12:37:37 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Loaded all jobs
+Aug 29, 2021 12:37:37 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Completed initialization
+Aug 29, 2021 12:37:37 PM org.eclipse.jetty.server.Server doStart
+INFO: jetty-9.4.5.v20170502
+Aug 29, 2021 12:37:37 PM org.eclipse.jetty.server.session.DefaultSessionIdManager doStart
+INFO: DefaultSessionIdManager workerName=node0
+Aug 29, 2021 12:37:37 PM org.eclipse.jetty.server.session.DefaultSessionIdManager doStart
+INFO: No SessionScavenger set, using defaults
+Aug 29, 2021 12:37:37 PM org.eclipse.jetty.server.session.HouseKeeper startScavenging
+INFO: Scavenging every 600000ms
+Aug 29, 2021 12:37:37 PM org.eclipse.jetty.server.handler.ContextHandler doStart
+INFO: Started o.e.j.s.ServletContextHandler@5b408dc3{/,null,AVAILABLE}
+Aug 29, 2021 12:37:37 PM org.eclipse.jetty.server.AbstractConnector doStart
+INFO: Started ServerConnector@7fc44dec{HTTP/1.1,[http/1.1]}{0.0.0.0:51666}
+Aug 29, 2021 12:37:37 PM org.eclipse.jetty.server.Server doStart
+INFO: Started @21756ms
+Aug 29, 2021 12:37:44 PM org.eclipse.jetty.server.AbstractConnector doStop
+INFO: Stopped ServerConnector@55493582{HTTP/1.1,[http/1.1]}{localhost:0}
+Aug 29, 2021 12:37:44 PM org.eclipse.jetty.server.session.HouseKeeper stopScavenging
+INFO: Stopped scavenging
+Aug 29, 2021 12:37:44 PM org.eclipse.jetty.server.handler.ContextHandler doStop
+INFO: Stopped o.e.j.w.WebAppContext@524f3b3a{/,file:///C:/Users/uday.kumar/Desktop/jenkinsPlugin/someTest/target/jenkins-for-test/,UNAVAILABLE}{C:\Users\uday.kumar\Desktop\jenkinsPlugin\someTest\target\jenkins-for-test}
+Aug 29, 2021 12:37:44 PM jenkins.model.Jenkins cleanUp
+INFO: Stopping Jenkins
+Aug 29, 2021 12:37:45 PM jenkins.model.Jenkins cleanUp
+INFO: Jenkins stopped
